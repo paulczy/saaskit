@@ -1,4 +1,4 @@
-﻿{
+{
 	"version": "1.0.0-*",
 	"description": "SaasKit.Multitenancy.Tests Class Library",
     "authors": [ "Ben Foster" ],
@@ -25,7 +25,8 @@
 			"target": "package"
 		},
 		"Microsoft.NETCore.Platforms": "1.0.1",
-		"Microsoft.Extensions.Logging.Console": "1.0.0"
+    "Microsoft.Extensions.Logging.Console": "1.0.0",
+    "Microsoft.NETCore.App": "1.0.1"
 	},
 	"frameworks": {
 		/*"net46": {
@@ -35,10 +36,6 @@
 		},*/
 		"netcoreapp1.0": {
 			"dependencies": {
-				"Microsoft.NETCore.App": {
-					"version": "1.0.0",
-					"type": "platform"
-				},
 				"Microsoft.CSharp": "4.0.1",
 				"System.Collections": "4.0.11",
 				"System.Linq": "4.1.0",
@@ -50,5 +47,11 @@
 				"portable-net451+win8"
 			]
 		}
-	}
+	},
+  "runtimes": {
+    "win10-x64": {},
+    "win81-x64" :  {}, 
+    "win8-x64" :  {}, 
+    "win7-x64" :  {}
+  }
 }

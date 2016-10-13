@@ -1,15 +1,16 @@
 {
 	"version": "1.0.0-*",
 	"dependencies": {
-		"Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
 		"Microsoft.Extensions.Logging.Console": "1.0.0",
 		"Microsoft.Extensions.Logging.Debug": "1.0.0",
 		"Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
 		"SaasKit.Multitenancy": { "target": "project" },
-		"Microsoft.VisualStudio.Web.CodeGeneration.Tools": {
-			"version": "1.0.0-preview2-final",
-			"type": "build"
-		}
+    "Microsoft.VisualStudio.Web.CodeGeneration.Tools": {
+      "version": "1.0.0-preview2-final",
+      "type": "build"
+    },
+    "BundlerMinifier.Core": "2.2.281",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.1"
 	},
 	"frameworks": {
 		"net46": { },
@@ -18,16 +19,18 @@
 				"dotnet5.6",
 				"portable-net45+win8"
 			],
-			"dependencies": {
-				"Microsoft.NETCore.App": {
-					"version": "1.0.0",
-					"type": "platform"
-				}
-			}
+      "dependencies": {
+        "Microsoft.NETCore.App": "1.0.1"
+      }
 		}
 	},
+  "runtimes": {
+    "win10-x64": {},
+    "win81-x64" :  {}, 
+    "win8-x64" :  {}, 
+    "win7-x64" :  {}
+  },
 	"tools": {
-		"BundlerMinifier.Core": "2.0.238",
 		"Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-preview2-final"
 	},
     "buildOptions": {

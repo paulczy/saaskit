@@ -1,6 +1,12 @@
 SaasKit
 =======
 
+##### Note: This is a fork of SaasKit, with updated dependencies. Nuget packages of this build can be found here:
+
+[TempWorks Labs (MyGet) saaskit.multitenancy](https://www.myget.org/feed/tempworkslabs/package/nuget/SaasKit.Multitenancy)
+
+[TempWorks Labs (MyGet) saaskit.multitenancy.structuremap](https://www.myget.org/feed/tempworkslabs/package/nuget/SaasKit.Multitenancy.StructureMap)
+
 [![Join the chat at https://gitter.im/saaskit/saaskit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/saaskit/saaskit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 SaasKit is a .NET toolkit for building SaaS (Software As A Service) applications.
